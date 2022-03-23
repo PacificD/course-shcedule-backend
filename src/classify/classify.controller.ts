@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:04:02
- * @LastEditTime: 2022-03-23 18:09:24
+ * @LastEditTime: 2022-03-23 18:11:30
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.controller.ts
@@ -35,6 +35,7 @@ export default class ClassifyController {
         return this.classifyService.addClassify(ClassifyDto, this.userId)
     }
 
+    
     @Delete(':classifyId')
     @UseGuards(AuthGuard('jwt'))
     async deleteClassify(@Param('classifyId') classifyId: string, @Headers() headers: Record<string, string>){

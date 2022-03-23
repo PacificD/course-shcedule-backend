@@ -2,13 +2,13 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:05:09
- * @LastEditTime: 2022-03-23 17:59:34
+ * @LastEditTime: 2022-03-23 18:14:15
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.service.ts
  */
 
-import { Injectable, Res } from "@nestjs/common";
+import { Injectable } from "@nestjs/common";
 import { Result, statusCodeEnum } from "src/config/resultType";
 import { LowdbService } from "src/lowdb/lowdb.service";
 import ClassifyDto from "./dto/classify.dto";
