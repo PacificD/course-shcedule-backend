@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 10:52:11
- * @LastEditTime: 2022-03-23 12:07:02
+ * @LastEditTime: 2022-03-23 17:22:57
  * @LastEditors: Pacific_D
  * @Description:
  * @FilePath: \class-schedule\src\filters\HttpException.ts
@@ -19,9 +19,10 @@ import {
 @Catch(HttpException)
 export class HttpExceptionFilter implements ExceptionFilter {
   catch(exception: HttpException, host: ArgumentsHost) {
-    const ctx = host.switchToHttp();
-    const response = ctx.getResponse();
-    const request = ctx.getRequest();
+    const ctx = host.switchToHttp(),
+      response = ctx.getResponse(),
+      request = ctx.getRequest(),
+      path = request.route ? request.route.path : '非法路径'
 
     const status =
       exception instanceof HttpException
@@ -29,21 +30,22 @@ export class HttpExceptionFilter implements ExceptionFilter {
         : HttpStatus.INTERNAL_SERVER_ERROR;
     const exceptionResponse = exception.getResponse()
     let message: string,
-        error: string
+      error: string
     if (typeof exceptionResponse === 'object') {
-      if(exceptionResponse.hasOwnProperty('message')){
+      if (exceptionResponse.hasOwnProperty('message')) {
         message = exceptionResponse['message']
       }
-      if(exceptionResponse.hasOwnProperty('error')){
+      if (exceptionResponse.hasOwnProperty('error')) {
         error = exceptionResponse['error']
+      } else {
+        error = '请求失败'
       }
     }
-
-    Logger.log('错误提示: ' + message)
+    Logger.error("'" + path + "': " + message)
 
     const errorResponse = {
       statusCode: status,
-      message: '请求失败, ' + error,
+      message: error,
       url: request.originalUrl, // 错误的url地址,
       data: {
         error: message,
