@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 10:59:59
- * @LastEditTime: 2022-03-23 11:03:29
+ * @LastEditTime: 2022-03-23 12:41:06
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\dto\classify.dto.ts
