@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 18:14:05
- * @LastEditTime: 2022-03-23 18:16:34
+ * @LastEditTime: 2022-03-23 18:21:39
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\courses\courses.service.ts
@@ -15,7 +15,7 @@ import { v1 as uuidv1 } from 'uuid'
 @Injectable()
 export default class CoursesService {
 
-    private readonly COLLECTION_NAME = 'weeklyCourses'
+    private readonly COLLECTION_NAME = 'courses'
     private dbService: LowdbService
     private result: Result
 
