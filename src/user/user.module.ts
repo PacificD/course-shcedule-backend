@@ -3,7 +3,7 @@
  * @Author: PacificD
  * @Date: 2021-10-07 22:36:14
  * @LastEditors: Pacific_D
- * @LastEditTime: 2022-03-23 16:54:22
+ * @LastEditTime: 2022-03-23 21:28:18
  * @Description: 
  */
 import { Module } from '@nestjs/common';
@@ -21,6 +21,6 @@ import { JwtStrategy } from './jwt.strategy';
     }
   })],
   controllers: [UserController],
-  providers: [UserService, JwtStrategy]
+  providers: [UserService, JwtStrategy, ]
 })
 export class UserModule { }

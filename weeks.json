@@ -1,0 +1,1364 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "userId": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
+      "data": [
+        {
+          "date": "Monday",
+          "courses": []
+        },
+        {
+          "date": "Tuesday",
+          "courses": []
+        },
+        {
+          "date": "Wednesday",
+          "courses": []
+        },
+        {
+          "date": "Thrusday",
+          "courses": []
+        },
+        {
+          "date": "Friday",
+          "courses": []
+        },
+        {
+          "date": "Saturday",
+          "courses": []
+        },
+        {
+          "date": "Sunday",
+          "courses": []
+        }
+      ]
+    }
+  ]
+}
