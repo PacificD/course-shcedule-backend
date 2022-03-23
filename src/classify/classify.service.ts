@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:05:09
- * @LastEditTime: 2022-03-23 18:14:15
+ * @LastEditTime: 2022-03-23 22:40:43
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.service.ts
@@ -25,6 +25,18 @@ export default class ClassifyService {
     constructor() {
         this.dbService = new LowdbService(this.COLLECTION_NAME)
     }
+
+    
+    async checkClassify(classifyId: string, userId: string): Promise<boolean> {
+        let checkResult = false
+        await this.dbService.getByOption(this.COLLECTION_NAME,{ id: classifyId}).then(res => {
+            if(res.id && userId === res.userId){
+                checkResult = true
+            }
+        })
+        return checkResult
+    }
+
 
     async addClassify(classifyDto: ClassifyDto, userId: string): Promise<Result> {
         const classify = new Classify(uuidv1(), classifyDto.course, userId)
