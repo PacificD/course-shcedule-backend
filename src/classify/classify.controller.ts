@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:04:02
- * @LastEditTime: 2022-03-23 17:36:44
+ * @LastEditTime: 2022-03-23 18:09:24
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.controller.ts
@@ -28,6 +28,7 @@ export default class ClassifyController {
     @Post()
     @UseGuards(AuthGuard('jwt'))
     async addClassify(@Body() ClassifyDto: ClassifyDto, @Headers() headers: Record<string, string>) {
+        //根据请求头的token获取用户信息
         await this.userService.getUserInfo(headers.token).then(res => {
             this.userId = res.id            
         })
