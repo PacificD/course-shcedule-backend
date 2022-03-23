@@ -2,25 +2,23 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 18:19:25
- * @LastEditTime: 2022-03-23 18:39:04
+ * @LastEditTime: 2022-03-23 21:48:19
  * @LastEditors: Pacific_D
  * @Description: 
- * @FilePath: \class-schedule\src\courses\pojo\Courses.ts
+ * @FilePath: \class-schedule\src\courses\pojo\Week.ts
  */
 import ICoursesData from "../type/coursesData"
 import { DateEnum } from "../type/dateEnum"
 import Course from "./Course"
 
-export default class Courses{
-    public readonly id: string
-    public readonly userId: string
+export default class Week{
     public readonly week: number
+    public readonly userId: string
     public data: Array<ICoursesData>
 
-    constructor(id: string, userId: string, week: number, data: Array<ICoursesData>){
-        this.id = id
-        this.userId = userId
+    constructor(week: number, userId: string, data: Array<ICoursesData>){
         this.week = week
+        this.userId = userId
         this.data = data
     }
 
