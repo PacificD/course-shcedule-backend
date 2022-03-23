@@ -1,0 +1,24 @@
+{
+  "classify": [
+    {
+      "id": "396032d0-aa89-11ec-9ee0-214f44bb97bc",
+      "course": "计算机网络",
+      "userId": "2a9c2380-aa89-11ec-9ee0-214f44bb97bc"
+    },
+    {
+      "id": "fa6bb250-aa8f-11ec-a3c9-73fe6929a2ca",
+      "course": "大学物理",
+      "userId": "21b7b140-aa8d-11ec-b84a-45102730517a"
+    },
+    {
+      "id": "2d0dbb90-aa90-11ec-ad45-5198b591c815",
+      "course": "人工智能",
+      "userId": "21b7b140-aa8d-11ec-b84a-45102730517a"
+    },
+    {
+      "id": "33a64530-aa90-11ec-ad45-5198b591c815",
+      "course": "计算机网络",
+      "userId": "21b7b140-aa8d-11ec-b84a-45102730517a"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-17 13:42:56
- * @LastEditTime: 2022-03-23 12:10:49
+ * @LastEditTime: 2022-03-23 17:55:20
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\lowdb\lowdb.service.ts
@@ -27,7 +27,7 @@ export class LowdbService {
      * @return {*}
      */
     private async initDatabase(collctionName: string): Promise<void> {
-        const adapter = new FileAsync('db.json');
+        const adapter = new FileAsync(`${collctionName}.json`);
         this.db = await lowdb(adapter);
         const listUsers = await this.db.get(collctionName).value();
         if (!listUsers) {
