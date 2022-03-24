@@ -1,8 +1,8 @@
 /* eslint-disable prettier/prettier */
 /*
  * @Author: Pacific_D
- * @Date: 2022-03-24 13:13:45
- * @LastEditTime: 2022-03-24 13:15:38
+ * @Date: 2022-03-24 22:22:39
+ * @LastEditTime: 2022-03-24 22:22:39
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\coursesDB\coursesDB.module.ts

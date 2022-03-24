@@ -1,23 +1,8 @@
 {
   "user": [
     {
-      "id": "2f479870-aab0-11ec-8a19-79a183209b6a",
+      "id": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
       "username": "user",
-      "password": "123456"
-    },
-    {
-      "id": "40af4c50-aab7-11ec-9e40-0d0133f1ef82",
-      "username": "root",
-      "password": "123456"
-    },
-    {
-      "id": "bc325d80-ab30-11ec-ac7c-4185682170a3",
-      "username": "test",
-      "password": "123456"
-    },
-    {
-      "id": "07e02f90-ab32-11ec-b86b-f50b54731702",
-      "username": "inject",
       "password": "123456"
     }
   ]

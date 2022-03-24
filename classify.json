@@ -1,44 +1,64 @@
 {
   "classify": [
     {
-      "id": "bde76fb0-aab0-11ec-ac73-6d13e0efb62e",
+      "id": "1884ccd0-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "人工智能",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+    },
+    {
+      "id": "1884ccd1-ab81-11ec-aa28-ddfab0a7714f",
       "course": "计算机网络",
-      "userId": "2a9c2380-aa89-11ec-9ee0-214f44bb97bc"
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
     },
     {
-      "id": "629f0ad0-aab7-11ec-9e40-0d0133f1ef82",
+      "id": "1884ccd2-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "概率论与数理统计",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+    },
+    {
+      "id": "1884ccd3-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "操作系统",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+    },
+    {
+      "id": "1884ccd4-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "JAVA程序设计",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+    },
+    {
+      "id": "1884ccd5-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "计算机系统结构",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+    },
+    {
+      "id": "1884ccd6-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "体育",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+    },
+    {
+      "id": "1884ccd7-ab81-11ec-aa28-ddfab0a7714f",
       "course": "数据结构",
-      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82"
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
     },
     {
-      "id": "bfdca930-ab22-11ec-aa90-b5fae7258673",
-      "course": "高等数学",
-      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82"
+      "id": "1884ccd8-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "算法设计与分析",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
     },
     {
-      "id": "3faeb7b0-ab24-11ec-a1a6-e7be6a8cdb89",
+      "id": "1884ccd9-ab81-11ec-aa28-ddfab0a7714f",
       "course": "大学物理",
-      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82"
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
     },
     {
-      "id": "4f711240-ab26-11ec-b2c4-698f4b281e74",
-      "course": "心理学",
-      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82"
+      "id": "1884ccda-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "高等数学",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
     },
     {
-      "id": "d098cc10-ab2f-11ec-8e82-bbd0c924e8e5",
-      "course": "离散数学",
-      "userId": "40af4c50-aab7-11ec-9e40-0d0133f1ef82"
-    },
-    {
-      "id": "cfc90380-ab30-11ec-ac7c-4185682170a3",
-      "course": "瑜伽",
-      "userId": "bc325d80-ab30-11ec-ac7c-4185682170a3"
-    },
-    {
-      "id": "26ee03d0-ab32-11ec-b86b-f50b54731702",
-      "course": "美术",
-      "userId": "07e02f90-ab32-11ec-b86b-f50b54731702"
+      "id": "1884ccdb-ab81-11ec-aa28-ddfab0a7714f",
+      "course": "计算机组成原理",
+      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
     }
   ]
 }
