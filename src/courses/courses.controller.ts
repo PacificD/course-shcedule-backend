@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 18:13:52
- * @LastEditTime: 2022-03-24 12:43:22
+ * @LastEditTime: 2022-03-24 21:49:49
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\courses\courses.controller.ts

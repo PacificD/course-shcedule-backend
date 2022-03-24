@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 18:14:05
- * @LastEditTime: 2022-03-24 13:19:18
+ * @LastEditTime: 2022-03-24 22:23:39
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\courses\courses.service.ts
@@ -11,7 +11,6 @@ import { Injectable, } from "@nestjs/common";
 import ClassifyService from "src/classify/classify.service";
 import { Result, statusCodeEnum } from "src/config/resultType";
 import CoursesDBService from "src/coursesDB/coursesDB.service";
-import { LowdbService } from "src/lowdb/lowdb.service";
 import { UserService } from "src/user/user.service";
 import { numberDateMapper } from "src/utils/generateCoursesData";
 import validateTime from "src/utils/validateTime";
@@ -125,8 +124,41 @@ export default class CoursesService {
     }
 
 
-    async deleteCourse(courseId: string, headers: Record<string, string>) {
+    async deleteCourse(courseId: string, headers: Record<string, string>): Promise<Result> {
         const userId = await this.getUserIdByToken(headers)
-        return 'HAHA'
+        const week: Week = await this.coursesDBService.dbService.getByOption(this.COLLECTION_NAME,{
+            data: [{courses: [{id: courseId}]}]
+        })
+        
+        let newcourses: Array<Course>,
+            indexOfDeletedDate: number
+                //判断课程是否存在
+        if(!week || !week.data){
+            this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "该课程不存在!")
+            return this.result
+        }
+        week.data.forEach((courseData: ICoursesData) => {
+            for(const course of courseData.courses){
+                if(course.id === courseId){
+                    indexOfDeletedDate = Number(numberDateMapper.get(courseData.date)) - 1
+                    newcourses = courseData.courses.filter((course: Course) => {if(course.id !== courseId) return course})
+                    break
+                }   
+            }
+        })
+        week.data[indexOfDeletedDate].courses = newcourses
+        this.result = Result.fail(statusCodeEnum.INTERNAL_SERVER_ERROR, '删除失败!')
+        let weeks = await this.coursesDBService.dbService.getAll(this.COLLECTION_NAME)
+        weeks = weeks.map((oldWeek: Week) => {
+            if(oldWeek.week === week.week && oldWeek.userId === userId){
+                return week
+            }
+            return oldWeek
+        })
+        await this.coursesDBService.dbService.setData(this.COLLECTION_NAME, weeks).then(res => {
+            res && (this.result = Result.success('删除成功!'))
+        })
+        
+        return this.result
     }
 }
