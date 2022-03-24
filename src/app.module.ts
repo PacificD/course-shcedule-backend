@@ -1,7 +1,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-22 22:57:06
- * @LastEditTime: 2022-03-23 18:16:19
+ * @LastEditTime: 2022-03-24 13:07:31
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\app.module.ts

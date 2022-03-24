@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-17 13:42:56
- * @LastEditTime: 2022-03-23 17:55:20
+ * @LastEditTime: 2022-03-24 11:27:34
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\lowdb\lowdb.service.ts
@@ -33,6 +33,18 @@ export class LowdbService {
         if (!listUsers) {
             await this.db.set(collctionName, []).write();
         }
+    }
+
+
+    /**
+     * @description: 覆盖数据
+     * @param {string} collctionName
+     * @param {object} obj
+     * @return {*}
+     */    
+    async setData(collctionName: string, obj: object): Promise<boolean> {
+        await this.db.set(collctionName, obj).write()
+        return true
     }
 
 
