@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:05:09
- * @LastEditTime: 2022-03-24 12:42:25
+ * @LastEditTime: 2022-03-24 22:24:41
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.service.ts
@@ -15,16 +15,19 @@ import ClassifyDto from "./dto/classify.dto";
 import { v1 as uuidv1 } from 'uuid'
 import Classify from "./pojo/Classify";
 import { UserService } from "src/user/user.service";
+import ClassifyDBService from "src/classifyDB/classifyDB.service";
 
 @Injectable()
 export default class ClassifyService {
 
     private readonly COLLECTION_NAME = 'classify'
-    private dbService: LowdbService
     private result: Result
 
-    constructor(private readonly userService: UserService) {
-        this.dbService = new LowdbService(this.COLLECTION_NAME)
+    constructor(
+        private readonly userService: UserService,
+        private readonly classifyDBService: ClassifyDBService
+    ) {
+        this.classifyDBService.dbService = new LowdbService(this.COLLECTION_NAME)
     }
 
 
@@ -40,7 +43,7 @@ export default class ClassifyService {
     async checkClassify(classifyId: string, headers: Record<string, string>): Promise<string> {
         let checkResult = ''
         const userId = await this.getUserIdByToken(headers)
-        await this.dbService.getByOption(this.COLLECTION_NAME, { id: classifyId }).then(res => {
+        await this.classifyDBService.dbService.getByOption(this.COLLECTION_NAME, { id: classifyId }).then(res => {
             if (res.id && userId === res.userId) {
                 checkResult = res.course
             }
@@ -55,7 +58,7 @@ export default class ClassifyService {
         let isClassifyExisted = false
 
         //check classify-name
-        await this.dbService.getAll(this.COLLECTION_NAME).then(listData => {
+        await this.classifyDBService.dbService.getAll(this.COLLECTION_NAME).then(listData => {
             listData.forEach(data => {
                 if (data.course === classifyDto.course && data.userId === userId) {
                     isClassifyExisted = true
@@ -66,7 +69,7 @@ export default class ClassifyService {
         if (isClassifyExisted) {
             this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "该课程分类已存在!")
         } else {
-            await this.dbService.addOne<Classify>(this.COLLECTION_NAME, classify).then(res => {
+            await this.classifyDBService.dbService.addOne<Classify>(this.COLLECTION_NAME, classify).then(res => {
                 this.result = Result.success(res)
             })
         }
@@ -77,7 +80,7 @@ export default class ClassifyService {
 
     async deleteClassify(classifyId: string, headers: Record<string, string>) {
         const userId = await this.getUserIdByToken(headers)
-        const searchRes = await this.dbService.getByOption(this.COLLECTION_NAME, {
+        const searchRes = await this.classifyDBService.dbService.getByOption(this.COLLECTION_NAME, {
             id: classifyId
         })
 
@@ -86,7 +89,7 @@ export default class ClassifyService {
             if (searchRes.userId !== userId) {
                 this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "非法操作!")
             } else {
-                await this.dbService.delByOption(this.COLLECTION_NAME, {
+                await this.classifyDBService.dbService.delByOption(this.COLLECTION_NAME, {
                     id: classifyId
                 }).then(res => {
                     this.result = Result.success('删除成功')
@@ -102,7 +105,7 @@ export default class ClassifyService {
 
     async getClassify(headers: Record<string, string>): Promise<Result> {
         const userId = await this.getUserIdByToken(headers)
-        const listData = await this.dbService.getAll(this.COLLECTION_NAME),
+        const listData = await this.classifyDBService.dbService.getAll(this.COLLECTION_NAME),
             resData: Array<Classify> = []
         listData.forEach((data: Classify) => {
             if (data.userId === userId) resData.push(data)
