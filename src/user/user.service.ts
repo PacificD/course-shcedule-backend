@@ -3,7 +3,7 @@
  * @Author: PacificD
  * @Date: 2021-10-07 22:36:14
  * @LastEditors: Pacific_D
- * @LastEditTime: 2022-03-24 13:09:32
+ * @LastEditTime: 2022-03-24 22:43:46
  * @Description: 
  */
 import { Injectable } from '@nestjs/common';
@@ -52,6 +52,8 @@ export class UserService {
       await this.dbService.addOne<User>(this.COLLECTION_NAME, newUser).then(res => {
         this.result = Result.success(res)
       })
+      //初始化用户的课程分类
+      this.generateService.generateClassify(newUser.id)
       //初始化用户的课程表
       this.generateService.generateWeeks(newUser.id)
     }
