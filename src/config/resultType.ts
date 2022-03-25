@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-17 17:41:09
- * @LastEditTime: 2022-03-23 14:45:44
+ * @LastEditTime: 2022-03-25 20:55:43
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\config\resultType.ts
@@ -25,6 +25,10 @@ export class Result {
 
     public static success(data: any) {
         return new Result(statusCodeEnum.OK, data, "success");
+    }
+
+    public static successWithCustomCode(statusCode: statusCodeEnum, data: any){
+        return new Result(statusCode, data, "success")
     }
 
     public static fail(statusCode: statusCodeEnum, message: string) {

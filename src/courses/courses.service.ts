@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 18:14:05
- * @LastEditTime: 2022-03-25 15:43:05
+ * @LastEditTime: 2022-03-25 20:57:25
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\courses\courses.service.ts
@@ -118,7 +118,7 @@ export default class CoursesService {
             }
         })
         await this.coursesDBService.dbService.setData(this.COLLECTION_NAME, listData).then(res => {
-            res && (this.result = Result.success('添加成功!'))
+            res && (this.result = Result.successWithCustomCode(statusCodeEnum.CREATED, '添加成功!'))
         })
 
         return this.result
