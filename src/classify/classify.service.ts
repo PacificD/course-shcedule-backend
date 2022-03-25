@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:05:09
- * @LastEditTime: 2022-03-25 21:59:46
+ * @LastEditTime: 2022-03-25 22:03:58
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.service.ts
@@ -82,7 +82,10 @@ export default class ClassifyService {
             this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "该课程分类已存在!")
         } else {
             await this.classifyDBService.dbService.addOne<Classify>(this.COLLECTION_NAME, classify).then(res => {
-                this.result = Result.successWithCustomCode(statusCodeEnum.CREATED, res)
+                this.result = Result.successWithCustomCode(statusCodeEnum.CREATED, {
+                    id: res.id,
+                    course: res.course
+                })
             })
         }
 
