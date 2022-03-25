@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:05:09
- * @LastEditTime: 2022-03-24 22:24:41
+ * @LastEditTime: 2022-03-25 16:10:33
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.service.ts
@@ -40,6 +40,7 @@ export default class ClassifyService {
         return userId
     }
 
+
     async checkClassify(classifyId: string, headers: Record<string, string>): Promise<string> {
         let checkResult = ''
         const userId = await this.getUserIdByToken(headers)
@@ -49,6 +50,17 @@ export default class ClassifyService {
             }
         })
         return checkResult
+    }
+
+
+    async getClassifyIdByName(course: string): Promise<string> {
+        let result = ''
+        await this.classifyDBService.dbService.getByOption(this.COLLECTION_NAME, { course: course }).then(res => {
+            if (res.id) {
+                result = res.id
+            }
+        })
+        return result
     }
 
 
