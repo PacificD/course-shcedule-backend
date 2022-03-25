@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 18:14:05
- * @LastEditTime: 2022-03-25 20:57:25
+ * @LastEditTime: 2022-03-25 21:30:57
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\courses\courses.service.ts
@@ -52,12 +52,12 @@ export default class CoursesService {
             return this.result
         }
 
-        const ListData = await this.coursesDBService.dbService.getByOption(this.COLLECTION_NAME, {
+        const ListData: Week = await this.coursesDBService.dbService.getByOption(this.COLLECTION_NAME, {
             week: week,
             userId: userId
         })
 
-        this.result = Result.success(ListData)
+        this.result = Result.success(ListData.data)
         return this.result
     }
 
