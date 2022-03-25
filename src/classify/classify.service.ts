@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:05:09
- * @LastEditTime: 2022-03-25 20:56:47
+ * @LastEditTime: 2022-03-25 21:59:46
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.service.ts
@@ -118,9 +118,15 @@ export default class ClassifyService {
     async getClassify(headers: Record<string, string>): Promise<Result> {
         const userId = await this.getUserIdByToken(headers)
         const listData = await this.classifyDBService.dbService.getAll(this.COLLECTION_NAME),
-            resData: Array<Classify> = []
+            resData: Array<{
+                id: string,
+                course: string
+            }> = []
         listData.forEach((data: Classify) => {
-            if (data.userId === userId) resData.push(data)
+            if (data.userId === userId) resData.push({
+                id: data.id,
+                course: data.course
+            })
         })
         this.result = Result.success(resData)
         return this.result
