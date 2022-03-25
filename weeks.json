@@ -2,34 +2,26 @@
   "weeks": [
     {
       "week": 1,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
           "courses": [
             {
-              "id": "8232a210-ab81-11ec-aa28-ddfab0a7714f",
-              "course": "计算机网络",
-              "classifyId": "1884ccd1-ab81-11ec-aa28-ddfab0a7714f",
-              "startTime": "2022-02-21 08:30",
-              "endTime": "2020-02-21 10:05",
-              "location": "教2-212"
+              "id": "f9e456c0-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-221"
             },
             {
-              "id": "ac759280-ab81-11ec-aa28-ddfab0a7714f",
-              "course": "概率论与数理统计",
-              "classifyId": "1884ccd2-ab81-11ec-aa28-ddfab0a7714f",
-              "startTime": "2022-02-21 10:25",
-              "endTime": "2020-02-21 12:00",
-              "location": "教3-303"
-            },
-            {
-              "id": "da1b5d00-ab81-11ec-aa28-ddfab0a7714f",
-              "course": "操作系统",
-              "classifyId": "1884ccd3-ab81-11ec-aa28-ddfab0a7714f",
-              "startTime": "2022-02-21 14:40",
-              "endTime": "2020-02-21 16:15",
-              "location": "教2-218"
+              "id": "f9e51a10-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-207"
             }
           ]
         },
@@ -37,26 +29,101 @@
           "date": "Tuesday",
           "courses": [
             {
-              "id": "f099b9a0-ab81-11ec-aa28-ddfab0a7714f",
-              "course": "JAVA程序设计",
-              "classifyId": "1884ccd4-ab81-11ec-aa28-ddfab0a7714f",
-              "startTime": "2022-02-21 10:25",
-              "endTime": "2020-02-21 12:00",
-              "location": "教2-223"
+              "id": "f9e51a11-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9e51a12-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-314"
             }
           ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e54120-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-102"
+            },
+            {
+              "id": "f9e54121-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e54122-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9e54123-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e54124-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9e54125-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9e54126-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9e54127-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -70,7 +137,7 @@
     },
     {
       "week": 2,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
@@ -78,19 +145,119 @@
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e5b650-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9e5b651-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9e5b652-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-202"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e5b653-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-218"
+            },
+            {
+              "id": "f9e5b654-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9e5dd60-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-221"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e5dd61-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9e5dd62-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9e5dd63-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e5dd64-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9e5dd65-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9e5dd66-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -104,27 +271,152 @@
     },
     {
       "week": 3,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e62b80-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9e62b81-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e62b82-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9e62b83-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9e62b84-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9e62b85-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e62b86-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9e62b87-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-102"
+            },
+            {
+              "id": "f9e62b88-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9e65290-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e65291-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e65292-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9e65293-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-218"
+            },
+            {
+              "id": "f9e65294-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9e65295-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -132,37 +424,140 @@
         },
         {
           "date": "Sunday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e65296-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-215"
+            }
+          ]
         }
       ]
     },
     {
       "week": 4,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e76400-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-221"
+            },
+            {
+              "id": "f9e78b10-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e78b11-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9e78b12-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-311"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e78b13-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9e78b14-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9e78b15-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-215"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e78b16-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-223"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e78b17-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9e78b18-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-223"
+            }
+          ]
         },
         {
           "date": "Saturday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e78b19-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-207"
+            }
+          ]
         },
         {
           "date": "Sunday",
@@ -172,27 +567,152 @@
     },
     {
       "week": 5,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e7d930-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9e7d931-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-207"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e7d932-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9e7d933-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9e7d934-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e7d935-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9e7d936-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9e7d937-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e7d938-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9e80040-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9e80041-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-215"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e80042-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9e80043-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9e80044-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9e80045-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教4-202"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -206,27 +726,168 @@
     },
     {
       "week": 6,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e89c80-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9e89c81-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9e89c82-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9e89c83-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教4-204"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e89c84-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9e89c85-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9e89c86-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-221"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e8c390-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9e8c391-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9e8c392-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9e8c393-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9e8c394-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-223"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e8c395-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9e8c396-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-202"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e8c397-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9e8c398-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9e8c399-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-202"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -240,27 +901,136 @@
     },
     {
       "week": 7,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e95fd0-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9e95fd1-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9e95fd2-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9e95fd3-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-311"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e95fd4-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9e95fd5-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-221"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e95fd6-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-102"
+            },
+            {
+              "id": "f9e95fd7-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-202"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e986e0-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9e986e1-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9e986e2-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e986e3-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-221"
+            },
+            {
+              "id": "f9e986e4-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-311"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -274,7 +1044,7 @@
     },
     {
       "week": 8,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
@@ -282,15 +1052,82 @@
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e9d500-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9e9d501-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教4-202"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e9d502-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9e9d503-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-202"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9e9d504-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-102"
+            },
+            {
+              "id": "f9e9d505-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9e9d506-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9e9d507-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Friday",
@@ -308,27 +1145,128 @@
     },
     {
       "week": 9,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eabf60-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9eabf61-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9eabf62-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eabf63-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9eabf64-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-207"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eabf65-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9eabf66-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-212"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eabf67-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9eae670-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-212"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eae671-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9eae672-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9eae673-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-205"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -342,27 +1280,152 @@
     },
     {
       "week": 10,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eb5ba0-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9eb5ba1-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9eb5ba2-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9eb5ba3-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-221"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eb5ba4-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9eb5ba5-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9eb5ba6-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-102"
+            },
+            {
+              "id": "f9eb5ba7-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9eb5ba8-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-221"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eb5ba9-ac38-11ec-9128-f7be294660c4",
+              "course": "人工智能",
+              "classifyId": "f9e408a0-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-221"
+            },
+            {
+              "id": "f9eb82b0-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9eb82b1-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-219"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eb82b2-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-207"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eb82b3-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9eb82b4-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-223"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -376,27 +1439,176 @@
     },
     {
       "week": 11,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ecbb30-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9ecbb31-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9ecbb32-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9ecbb33-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9ecbb34-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ecbb35-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9ece240-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9ece241-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ece242-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9ece243-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9ece244-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9ece245-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-215"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ece246-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9ece247-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-218"
+            },
+            {
+              "id": "f9ece248-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-204"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ece249-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-218"
+            },
+            {
+              "id": "f9ece24a-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9ece24b-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-105"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -410,31 +1622,173 @@
     },
     {
       "week": 12,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9edcca0-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9edcca1-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9edcca2-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9edcca3-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9edcca4-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-205"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9edcca5-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-102"
+            },
+            {
+              "id": "f9edcca6-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9edcca7-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9edcca8-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9edcca9-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9edccaa-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教4-204"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9edccab-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9edccac-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-218"
+            },
+            {
+              "id": "f9edccad-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9edccae-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9edccaf-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Saturday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9edf3b0-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Sunday",
@@ -444,27 +1798,144 @@
     },
     {
       "week": 13,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ee8ff0-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9ee8ff1-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ee8ff2-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9ee8ff3-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9eeb700-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9eeb701-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eeb702-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9eeb703-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-219"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eeb704-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9eeb705-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9eeb706-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-218"
+            },
+            {
+              "id": "f9eeb707-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-207"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9eeb708-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9eeb709-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-215"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -478,27 +1949,152 @@
     },
     {
       "week": 14,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ef5340-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9ef5341-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ef7a50-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9ef7a51-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9ef7a52-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9ef7a53-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-219"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9ef7a54-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9efa160-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9efa161-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教4-202"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9efa162-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9efa163-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9efa164-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-105"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9efa165-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9efa166-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9efa167-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-207"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -512,15 +2108,57 @@
     },
     {
       "week": 15,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f03da0-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9f03da1-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9f03da2-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-219"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f03da3-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9f03da4-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-204"
+            }
+          ]
         },
         {
           "date": "Wednesday",
@@ -528,15 +2166,74 @@
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f064b0-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-215"
+            },
+            {
+              "id": "f9f064b1-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9f064b2-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9f064b3-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-219"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f064b4-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9f064b5-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-223"
+            }
+          ]
         },
         {
           "date": "Saturday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f064b6-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-105"
+            }
+          ]
         },
         {
           "date": "Sunday",
@@ -546,27 +2243,144 @@
     },
     {
       "week": 16,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f100f0-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9f100f1-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9f100f2-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-219"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f100f3-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9f100f4-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f100f5-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9f100f6-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9f100f7-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f100f8-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9f100f9-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9f100fa-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-219"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f100fb-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9f100fc-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9f100fd-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-207"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -580,11 +2394,20 @@
     },
     {
       "week": 17,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f34ae0-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Tuesday",
@@ -592,15 +2415,82 @@
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f34ae1-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教2-218"
+            },
+            {
+              "id": "f9f371f0-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9f371f1-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教4-202"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f371f2-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9f371f3-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9f371f4-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-314"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f371f5-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机系统结构",
+              "classifyId": "f9e408a5-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-205"
+            },
+            {
+              "id": "f9f371f6-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教1-311"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -614,27 +2504,168 @@
     },
     {
       "week": 18,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f3e720-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9f3e721-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教4-204"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f3e722-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9f3e723-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9f40e30-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-215"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f40e31-ac38-11ec-9128-f7be294660c4",
+              "course": "机器学习",
+              "classifyId": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教4-202"
+            },
+            {
+              "id": "f9f40e32-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9f40e33-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9f40e34-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f40e35-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教3-105"
+            },
+            {
+              "id": "f9f40e36-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9f40e37-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-212"
+            }
+          ]
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f40e38-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-212"
+            },
+            {
+              "id": "f9f40e39-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9f40e3a-ac38-11ec-9128-f7be294660c4",
+              "course": "数据挖掘",
+              "classifyId": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教4-204"
+            },
+            {
+              "id": "f9f40e3b-ac38-11ec-9128-f7be294660c4",
+              "course": "大学物理",
+              "classifyId": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教1-311"
+            },
+            {
+              "id": "f9f40e3c-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -648,19 +2679,54 @@
     },
     {
       "week": 19,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f5e2f0-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-102"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f5e2f1-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机组成原理",
+              "classifyId": "f9e408a6-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教2-219"
+            },
+            {
+              "id": "f9f5e2f2-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f5e2f3-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教2-215"
+            }
+          ]
         },
         {
           "date": "Thrusday",
@@ -668,7 +2734,32 @@
         },
         {
           "date": "Friday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f5e2f4-ac38-11ec-9128-f7be294660c4",
+              "course": "线性代数",
+              "classifyId": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-102"
+            },
+            {
+              "id": "f9f5e2f5-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9f5e2f6-ac38-11ec-9128-f7be294660c4",
+              "course": "概率论与数理统计",
+              "classifyId": "f9e408a2-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-105"
+            }
+          ]
         },
         {
           "date": "Saturday",
@@ -682,23 +2773,107 @@
     },
     {
       "week": 20,
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4",
       "data": [
         {
           "date": "Monday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f67f30-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-202"
+            }
+          ]
         },
         {
           "date": "Tuesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f67f31-ac38-11ec-9128-f7be294660c4",
+              "course": "数据结构",
+              "classifyId": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-212"
+            }
+          ]
         },
         {
           "date": "Wednesday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f67f32-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "08:30",
+              "endTime": "10:05",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9f67f33-ac38-11ec-9128-f7be294660c4",
+              "course": "大学英语",
+              "classifyId": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-202"
+            },
+            {
+              "id": "f9f67f34-ac38-11ec-9128-f7be294660c4",
+              "course": "离散数学",
+              "classifyId": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教3-207"
+            },
+            {
+              "id": "f9f67f35-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教3-305"
+            }
+          ]
         },
         {
           "date": "Thrusday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f67f36-ac38-11ec-9128-f7be294660c4",
+              "course": "高等数学",
+              "classifyId": "f9e408af-ac38-11ec-9128-f7be294660c4",
+              "startTime": "10:25",
+              "endTime": "12:00",
+              "location": "教3-305"
+            },
+            {
+              "id": "f9f67f37-ac38-11ec-9128-f7be294660c4",
+              "course": "操作系统",
+              "classifyId": "f9e408a3-ac38-11ec-9128-f7be294660c4",
+              "startTime": "14:40",
+              "endTime": "16:15",
+              "location": "教1-314"
+            },
+            {
+              "id": "f9f67f38-ac38-11ec-9128-f7be294660c4",
+              "course": "JAVA程序设计",
+              "classifyId": "f9e408a4-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-223"
+            },
+            {
+              "id": "f9f67f39-ac38-11ec-9128-f7be294660c4",
+              "course": "计算机网络",
+              "classifyId": "f9e408a1-ac38-11ec-9128-f7be294660c4",
+              "startTime": "18:30",
+              "endTime": "20:55",
+              "location": "教2-218"
+            }
+          ]
         },
         {
           "date": "Friday",
@@ -710,7 +2885,16 @@
         },
         {
           "date": "Sunday",
-          "courses": []
+          "courses": [
+            {
+              "id": "f9f67f3a-ac38-11ec-9128-f7be294660c4",
+              "course": "算法设计与分析",
+              "classifyId": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+              "startTime": "16:30",
+              "endTime": "18:05",
+              "location": "教2-215"
+            }
+          ]
         }
       ]
     }

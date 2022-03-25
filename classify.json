@@ -1,64 +1,84 @@
 {
   "classify": [
     {
-      "id": "1884ccd0-ab81-11ec-aa28-ddfab0a7714f",
+      "id": "f9e408a0-ac38-11ec-9128-f7be294660c4",
       "course": "人工智能",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
     },
     {
-      "id": "1884ccd1-ab81-11ec-aa28-ddfab0a7714f",
+      "id": "f9e408a1-ac38-11ec-9128-f7be294660c4",
       "course": "计算机网络",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
     },
     {
-      "id": "1884ccd2-ab81-11ec-aa28-ddfab0a7714f",
+      "id": "f9e408a2-ac38-11ec-9128-f7be294660c4",
       "course": "概率论与数理统计",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
     },
     {
-      "id": "1884ccd3-ab81-11ec-aa28-ddfab0a7714f",
+      "id": "f9e408a3-ac38-11ec-9128-f7be294660c4",
       "course": "操作系统",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
     },
     {
-      "id": "1884ccd4-ab81-11ec-aa28-ddfab0a7714f",
+      "id": "f9e408a4-ac38-11ec-9128-f7be294660c4",
       "course": "JAVA程序设计",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
     },
     {
-      "id": "1884ccd5-ab81-11ec-aa28-ddfab0a7714f",
+      "id": "f9e408a5-ac38-11ec-9128-f7be294660c4",
       "course": "计算机系统结构",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
     },
     {
-      "id": "1884ccd6-ab81-11ec-aa28-ddfab0a7714f",
-      "course": "体育",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
-    },
-    {
-      "id": "1884ccd7-ab81-11ec-aa28-ddfab0a7714f",
-      "course": "数据结构",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
-    },
-    {
-      "id": "1884ccd8-ab81-11ec-aa28-ddfab0a7714f",
-      "course": "算法设计与分析",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
-    },
-    {
-      "id": "1884ccd9-ab81-11ec-aa28-ddfab0a7714f",
-      "course": "大学物理",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
-    },
-    {
-      "id": "1884ccda-ab81-11ec-aa28-ddfab0a7714f",
-      "course": "高等数学",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
-    },
-    {
-      "id": "1884ccdb-ab81-11ec-aa28-ddfab0a7714f",
+      "id": "f9e408a6-ac38-11ec-9128-f7be294660c4",
       "course": "计算机组成原理",
-      "userId": "188457a0-ab81-11ec-aa28-ddfab0a7714f"
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408a7-ac38-11ec-9128-f7be294660c4",
+      "course": "大学英语",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408a8-ac38-11ec-9128-f7be294660c4",
+      "course": "线性代数",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408a9-ac38-11ec-9128-f7be294660c4",
+      "course": "机器学习",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408aa-ac38-11ec-9128-f7be294660c4",
+      "course": "数据挖掘",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408ab-ac38-11ec-9128-f7be294660c4",
+      "course": "数据结构",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408ac-ac38-11ec-9128-f7be294660c4",
+      "course": "算法设计与分析",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408ad-ac38-11ec-9128-f7be294660c4",
+      "course": "离散数学",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408ae-ac38-11ec-9128-f7be294660c4",
+      "course": "大学物理",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
+    },
+    {
+      "id": "f9e408af-ac38-11ec-9128-f7be294660c4",
+      "course": "高等数学",
+      "userId": "f9e39370-ac38-11ec-9128-f7be294660c4"
     }
   ]
 }
