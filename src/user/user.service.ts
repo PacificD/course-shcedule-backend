@@ -3,7 +3,7 @@
  * @Author: PacificD
  * @Date: 2021-10-07 22:36:14
  * @LastEditors: Pacific_D
- * @LastEditTime: 2022-03-25 20:57:44
+ * @LastEditTime: 2022-03-25 21:29:50
  * @Description: 
  */
 import { Injectable } from '@nestjs/common';
@@ -50,7 +50,10 @@ export class UserService {
       this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "用户名已存在!")
     } else {
       await this.dbService.addOne<User>(this.COLLECTION_NAME, newUser).then(res => {
-        this.result = Result.successWithCustomCode(statusCodeEnum.CREATED, res)
+        this.result = Result.successWithCustomCode(statusCodeEnum.CREATED, {
+          id: res.id,
+          username: res.username
+        })
       })
       //初始化用户的课程分类和课程表
       this.generateService.generate(newUser.id)
