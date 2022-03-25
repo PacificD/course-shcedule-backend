@@ -18,7 +18,7 @@
 > 2. 执行： `npm install`
 > 3. 依赖安装完毕后，执行：`node app.js`
 > 4. 打开浏览器，进入 `http://localhost:8081`，看到网页数据，则证明后端服务启动成功
-> 5. 所有的API请求都是基于 `http://localhost:8081`为根地址
+> 5. 所有的API请求都是基于 `http://localhost:8081`为根地址，如用户注册请求：`http://localhost:8081/user/register`
 
 
 
@@ -94,7 +94,11 @@
 
 - 这里用删除一个课程分类接口为例子
 
-- 请求路径：`/classify/:classifyId`，类似这种的，称之为restful请求
+- restful请求：
+
+  - 请求路径：`/classify/:classifyId`，/classify加课程分类ID
+  - 如删除课程分类请求：`/classify/45be0080-ac4a-11ec-b04d-0bf819bbfaac`，请求方法为`DELETE`，在路径后加上课程分类的ID
+  - 类似这种的，称之为restful API
 
 - ```javascript
   var XHR = new XMLHttpRequest()
