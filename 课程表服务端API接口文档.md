@@ -7,7 +7,7 @@
 - 接口基准地址：`http://localhost:8081`
 - 服务端对前端所有域开放权限
 - API V1 认证统一使用 Token 认证
-- 需要授权的 API ，必须在请求头中添加 `token` 字段提供 token 令牌
+- 需要授权的 API ，必须在请求头headers中添加 `token` 字段提供 token 令牌
 - 本API文档出现的请求参数默认不能为空
 - 使用 HTTP Status Code 标识状态
 - 数据返回格式统一使用 JSON
@@ -63,6 +63,8 @@
     ```
 
 - 这里使用获取用户的所有课程分类为例子，
+
+  - 在所有需要权限的接口中，在请求头headers中加上token字段。如果没有带上token，会显示状态码为401的错误结果：`Unauthorized`
 
   - ```javascript
     var XHR = new XMLHttpRequest()
@@ -169,7 +171,7 @@
   - | **参数名** | **参数说明** | 备注               |
     | ---------- | ------------ | ------------------ |
     | username   | 用户名       | 长度在2~16字符之间 |
-    | password   | 密码         | 长度在2~16字符之间 |
+    | password   | 密码         | 长度在6~16字符之间 |
 
 - 响应参数：
 
