@@ -30,12 +30,16 @@
 
   - ```javascript
     var XHR = new XMLHttpRequest()
+    //以POST方法发送请求，第二个参数为请求地址
     XHR.open("POST","http://localhost:8081/user/register",false)
+    //设置请求头
     XHR.setRequestHeader("Content-type","application/x-www-form-urlencoded")
-    XHR.send("username=user&password=123456") //传参
+    //用'&’隔开参数
+    XHR.send("username=user&password=123456") 
+    //打印后端返回结果的对象
     console.log(JSON.parse(XHR.responseText))
     ```
-
+    
   - 在浏览器F12控制台可以看到后端返回的消息
 
 ### 2. 请求需要权限的接口（带上token）
@@ -62,6 +66,7 @@
     var XHR = new XMLHttpRequest()
     XHR.open("GET","http://localhost:8081/classify",false)
     XHR.setRequestHeader("Content-type","application/x-www-form-urlencoded")
+    //在请求头设置TOKEN
     XHR.setRequestHeader("token","eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ1YmQxNjIwLWFjNGEtMTFlYy1iMDRkLTBiZjgxOWJiZmFhYyIsInVzZXJOYW1lIjoidXNlciIsInBhc3N3b3JkIjoiMTIzNDU2IiwiaWF0IjoxNjQ4MjE5NzgwLCJleHAiOjE2NDgzMDYxODB9.NdI_6AlCdW737yznOp3xsg0DyBZhcqGluGdE8gGQGH0")
     XHR.send()
     console.log(JSON.parse(XHR.responseText))
