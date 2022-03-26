@@ -23,9 +23,6 @@
 
 - `Nest.js`（基于express与typescript的web框架）
 
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
 - `lowdb`（基于JSON的轻量级数据库）存储数据。为了方便大一同学使用，只需要将打包好的文件拉到本地后npm install安装依赖，无需安装数据库环境。
 - token鉴权：
   - `@nestjs/jwt`
