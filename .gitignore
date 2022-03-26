@@ -2,6 +2,11 @@
 /dist
 /node_modules
 
+# db
+weeks.json
+user.json
+classify.json
+
 # Logs
 logs
 *.log
