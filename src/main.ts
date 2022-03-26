@@ -1,7 +1,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-22 22:57:06
- * @LastEditTime: 2022-03-25 22:38:50
+ * @LastEditTime: 2022-03-26 11:36:27
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\main.ts
@@ -20,7 +20,7 @@ const port = 8081;
   //配置全局管道
   app.useGlobalPipes(new ValidationPipe({
     whitelist: true,
-  }));
+  }))
 
   // 全局注册错误的过滤器
   app.useGlobalFilters(new HttpExceptionFilter());
@@ -29,7 +29,7 @@ const port = 8081;
   app.enableCors({
     credentials: true,
     methods: "GET,POST,PATCH,DELETE",
-  });
+  })
 
   await app.listen(port);
 })();
