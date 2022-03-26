@@ -1,5 +1,7 @@
 # 课程表服务端API接口文档
 
+> [Github地址](https://github.com/PacificD/class-schedule-backend-dist)
+
 ## API V1 接口说明：
 
 - 接口基准地址：`http://localhost:8081`
@@ -14,9 +16,9 @@
 
 ## 启动：
 
-> 1. 在文件夹的根目录打开vscode终端或其他终端
+> 1. 进入文件内的`app`文件夹目录打开vscode终端或git bash终端或其他终端
 > 2. 执行： `npm install`
-> 3. 依赖安装完毕后，执行：`node app.js`
+> 3. 依赖安装完毕后，执行：`node main.js`
 > 4. 打开浏览器，进入 `http://localhost:8081`，看到网页数据，则证明后端服务启动成功
 > 5. 所有的API请求都是基于 `http://localhost:8081`为根地址，如用户注册请求：`http://localhost:8081/user/register`
 
