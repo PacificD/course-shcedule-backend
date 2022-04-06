@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 18:14:05
- * @LastEditTime: 2022-03-25 21:46:22
+ * @LastEditTime: 2022-04-06 15:32:01
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\courses\courses.service.ts
@@ -82,7 +82,7 @@ export default class CoursesService {
 
         //验证时间格式
         if (!validateTime(startTime) || !validateTime(endTime)) {
-            this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：2020-04-10 09:30")
+            this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：09:30")
             return this.result
         }
 
@@ -179,7 +179,7 @@ export default class CoursesService {
 
         //验证时间格式
         if (!validateTime(startTime) || !validateTime(endTime)) {
-            this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：2020-04-10 09:30")
+            this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：09:30")
             return this.result
         }
 
