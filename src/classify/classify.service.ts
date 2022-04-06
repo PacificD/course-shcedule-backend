@@ -2,7 +2,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-03-23 11:05:09
- * @LastEditTime: 2022-03-25 22:03:58
+ * @LastEditTime: 2022-04-05 17:56:18
  * @LastEditors: Pacific_D
  * @Description: 
  * @FilePath: \class-schedule\src\classify\classify.service.ts
@@ -108,7 +108,7 @@ export default class ClassifyService {
                     id: classifyId
                 }).then(res => {
                     this.result = Result.success('删除成功')
-                })
+                })           
             }
         } else {
             this.result = Result.fail(statusCodeEnum.BAD_REQUEST, "该课程不存在!")
